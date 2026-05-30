@@ -8,7 +8,6 @@ La plataforma está diseñada para facilitar el trabajo de administradores, mese
 Funcionalidades Principales
 
 -Gestión de Productos
-
 -Registro de nuevos productos.
 -Edición y actualización de información.
 -Activación y desactivación de productos.
