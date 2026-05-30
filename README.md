@@ -27,10 +27,7 @@ Permite administrar el catálogo de productos disponibles dentro del sistema.
 * Registro de nuevos productos.
 * Edición y actualización de información.
 * Activación y desactivación de productos.
-* Organización por categorías.
-* Control de precios.
-* Gestión de descripciones.
-* Administración de imágenes de productos.
+* Productos organizados por categoria.
 
 ---
 
@@ -42,9 +39,8 @@ Facilita la gestión del personal encargado de atender a los clientes.
 
 * Registro de nuevos meseros.
 * Administración de información del personal.
-* Asignación de accesos al sistema.
 * Consulta de datos de cada empleado.
-* Seguimiento de actividades relacionadas con la atención al cliente.
+* Seguimiento de actividades relacionadas con las ventas.
 
 ---
 
@@ -56,8 +52,7 @@ Permite controlar el flujo de pedidos desde su creación hasta su entrega.
 
 * Visualización de órdenes en tiempo real.
 * Seguimiento del estado de cada pedido.
-* Organización de pedidos por mesa.
-* Organización de pedidos por mesero.
+* Organización de pedidos por mesa y mesero.
 * Comunicación eficiente entre cocina y servicio.
 
 ---
@@ -72,7 +67,6 @@ Diseñado para mejorar la coordinación entre cocina y meseros.
 * Visualización de órdenes pendientes.
 * Visualización de órdenes en preparación.
 * Visualización de órdenes completadas.
-* Actualización del estado de los alimentos.
 * Optimización de tiempos de preparación y entrega.
 
 ---
@@ -86,8 +80,7 @@ Permite llevar un seguimiento detallado de los ingresos del negocio.
 * Registro automático de ventas.
 * Historial de transacciones.
 * Consulta de ventas realizadas.
-* Generación de estadísticas.
-* Análisis del desempeño diario del negocio.
+* Generación de reporte en exel.
 
 ---
 
@@ -111,9 +104,17 @@ Ofrece una visión general de todas las operaciones del establecimiento.
 * Flutter Web
 * Dart
 * Firebase Authentication
-* Cloud Firestore
-* Firebase Storage
-* Firebase Hosting
+* firebase core: 3.15.2
+* cupertino icons: ^1.0.8
+* cloud firestore: ^5.4.3
+* firebase auth: ^5.7.0
+* go router: ^14.2.7
+* firebase storage: ^12.4.10
+* image picker: ^1.0.7
+* excel: ^4.0.3
+* firebase messaging: ^15.0.0
+* universal html: ^2.2.4
+
 
 ---
 
@@ -122,9 +123,7 @@ Ofrece una visión general de todas las operaciones del establecimiento.
 El sistema está diseñado para:
 
 * Administradores.
-* Meseros.
 * Personal de cocina.
-* Encargados del negocio.
 
 ---
 
